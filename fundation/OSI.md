@@ -59,6 +59,8 @@ Dari ke 7 layer itu ada 3 layer yang paling penting SOC analyst yaitu
 
 ---
 
+### Mengapa penting ?
+
 Karena di layer 7 (Application) kita memantau protokol yang digunakan applikasi. Ini adalah layer paling sibuk karena serangan modern banyak menyerang disini. Ancamannya sering kali dengan phising, SQL injection, cross-site scripting (XSS), dan serangan API. **Di layer 7 ini penting untuk tahu "apa" yang diserang (application/data).**
 
 Dilayer 4 (Trassport) kita akan Analisis port dan protokol komunikasi (TCP/UDP). Sangat penting untuk mendeteksi scanning atau koneksi ilegal. Ancamannya sering kali dengan Port Scanning, SYN Flood (DDoS), eksploitasi protokol transmisi. **Di layer 4 ini penting untuk tau "bagaimana" cara mereka masuk (port/protokol).**
