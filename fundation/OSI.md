@@ -65,7 +65,7 @@ Karena di layer 7 (Application) kita memantau protokol yang digunakan applikasi.
 
 Dilayer 4 (Trassport) kita akan Analisis port dan protokol komunikasi (TCP/UDP). Sangat penting untuk mendeteksi scanning atau koneksi ilegal. Ancamannya sering kali dengan Port Scanning, SYN Flood (DDoS), eksploitasi protokol transmisi. **Di layer 4 ini penting untuk tau "bagaimana" cara mereka masuk (port/protokol).**
 
-Dan dilayer 3 (network) kita akan Analisis alamat IP asal dan tujuan. Digunakan untuk memblokir IP penyerang atau mendeteksi lateral movement. Ancamannya sering kali dengan IP Spoofing, pelacakan sumber serangan, komunikasi C2 (Command and Control). **Di layer 4 ini penting untuk tau "siapa/dari mana" asal serangan (IP-Address).**
+Dan dilayer 3 (network) kita akan Analisis alamat IP asal dan tujuan. Digunakan untuk memblokir IP penyerang atau mendeteksi lateral movement. Ancamannya sering kali dengan IP Spoofing, pelacakan sumber serangan, komunikasi C2 (Command and Control). **Di layer 3 ini penting untuk tau "siapa/dari mana" asal serangan (IP-Address).**
 
 
 ---
