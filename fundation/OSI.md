@@ -5,43 +5,43 @@
 
 ### 7 lapisan OSI layer
 
-7 application
+Layer 7 application
 
 * Pengertian: Lapisan di mana pengguna berinteraksi langsung dengan aplikasi.
 * Fungsi: Menyediakan layanan jaringan untuk aplikasi (browser, email).
 * Contoh: HTTP (Web), SMTP (Email), FTP (Transfer File).
 
-6 presentation 
+Layer 6 presentation 
 
 * Pengertian: Lapisan yang menerjemahkan format data.
 * Fungsi: Enkripsi (keamanan), kompresi, dan format data (penerjemah).
 * Contoh: SSL/TLS (Enkripsi), JPEG, ASCII, MP4. 
 
-5 session 
+Layer 5 session 
 
 * Pengertian: Lapisan yang mengelola "percakapan" antar komputer.
 * Fungsi: Membuka, menjaga, dan menutup koneksi (sesi).
 * Contoh: NetBIOS, RPC.
 
-4 trassport 
+Layer 4 trassport 
 
 * Pengertian: Lapisan pengiriman data antar perangkat.
 * Fungsi: Memecah data jadi potongan kecil (segment) dan memastikan data sampai dengan benar.
 * Contoh: TCP (Pasti sampai) dan UDP (Cepat tapi tak menjamin sampai).
 
-3 network
+Layer 3 network
 
 * Pengertian: Lapisan alamat logika dan rute.
 * Fungsi: Menentukan jalur terbaik (routing) dan menggunakan alamat IP. 
 * Contoh: IP Address (IPv4, IPv6), Router, ICMP (Ping).
 
-2 data link 
+Layer 2 data link 
 
 * Pengertian: Lapisan koneksi fisik antar perangkat dalam satu jaringan lokal.
 * Fungsi: Mengubah data jadi frame dan menggunakan alamat fisik (MAC Address).
 * Contoh: Ethernet, Switch, MAC Address.
 
-1 physical 
+Layer 1 physical 
 
 * Pengertian: Lapisan fisik perangkat keras.
 * Fungsi: Mengirimkan data mentah (bit 0 dan 1) melalui media fisik.
